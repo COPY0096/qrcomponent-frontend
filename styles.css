@@ -7,7 +7,7 @@
 
 body {
     background-color:var(--color-slate-300);
-    width: 100%;
+    font-family: "Outfit", sans-serif;
 }
 
 p{
@@ -15,14 +15,23 @@ p{
 }
 
 
-
-
 .container {
     background-color: var(--color-white);
+    text-align: center;
     
+}
+img.qr-img {
+
+    border-radius: 15px;
+    padding: 5px;
+    width: 250px;
+    height: auto;
 }
 
 
+.text-content{
+    font-weight: 900;
+}
 
 .attribution { 
     font-size: 11px; text-align: center; 

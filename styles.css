@@ -1,0 +1,30 @@
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-slate-300: hsl(212, 45%, 89%);
+    --color-slate-500: hsl(216, 15%, 48%);
+    --color-slate-900: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color:var(--color-slate-300);
+    width: 100%;
+}
+
+p{
+    color: var(--color-slate-900);
+}
+
+
+
+
+.container {
+    background-color: var(--color-white);
+    
+}
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    color: hsl(228, 45%, 44%);
+}
